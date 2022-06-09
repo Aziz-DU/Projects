@@ -1,4 +1,4 @@
-## Aziz programming projects
+## programming projects
 
 <ul>
   <li align="center">COMP 2370: Introduction to Algorithms and Data Structures - Java </li>
