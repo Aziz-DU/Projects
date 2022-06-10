@@ -9,6 +9,16 @@
     <li>max subarray sum - multi algo </li>
     <li>Modified Dijkstra’s Algorithm </li>
   </ul>
+    <li align="center">COMP 3361: Operating systems - C++ </li>
+  <ul>
+    <li>Project 1 - Reverse Lines</li>
+    <li>Project 2 - HexHistogram </li>
+    <li>Project 3 - Perfect Numbers </li>
+    <li>Project 4 - Readers and Writers </li>
+    <li>Project 5 - Scheduling Simulation </li>
+    <li>Project 6 - Deadlock Detection </li>
+    <li>Project 7 - Memory Management with Lists </li>
+  </ul>
   <li>...</li>
 </ul>
 
