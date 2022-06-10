@@ -19,6 +19,14 @@
     <li>Project 6 - Deadlock Detection </li>
     <li>Project 7 - Memory Management with Lists </li>
   </ul>
+    <li align="center">COMP 3351: Programming Languages - Haskell </li>
+  <ul>
+    <li>Dailies 1-9 - Problem Soliving With Haskell</li>
+    <li>Weekly Assignment One: Encoding and Decoding </li>
+    <li>Weekly Assignment Two: Tree Structures </li>
+    <li>Weekly Assignment Three: Patterns in Haskell</li>
+    <li>Weekly Assignment Four: LISP Style Language </li>
+  </ul>
   <li>...</li>
 </ul>
 
