@@ -1,0 +1,40 @@
+PROJECT 4 OUTPUT
+
+
+V1
+Reader 1 read 7,  1 reader(s)
+Reader 2 read 7,  1 reader(s)
+Reader 3 read 7,  1 reader(s)
+Writer 2 wrote 49, 0 reader(s)
+Writer 1 wrote 62, 0 reader(s)
+Reader 2 read 62,  1 reader(s)
+Reader 1 read 62,  1 reader(s)
+Reader 3 read 62,  2 reader(s)
+Reader 2 read 62,  2 reader(s)
+Writer 2 wrote 26, 0 reader(s)
+Writer 1 wrote 40, 0 reader(s)
+Reader 3 read 40,  1 reader(s)
+Reader 1 read 40,  2 reader(s)
+
+V2
+Reader 1 read 7,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting.. 
+Reader 2 read 7,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Reader 3 read 7,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Writer 1 wrote 62, 0 reader(s),0 reader(s) waiting,0 writer(s) waiting..
+Reader 4 read 62,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Reader 2 read 62,  2 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Reader 5 read 62,  3 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Writer 2 wrote 63, 0 reader(s),2 reader(s) waiting,0 writer(s) waiting..
+Reader 2 read 63,  1 reader(s), 2 reader(s) waiting, 0 writer(s) waiting..
+Reader 1 read 63,  1 reader(s), 2 reader(s) waiting, 2 writer(s) waiting..
+Writer 2 wrote 26, 0 reader(s),3 reader(s) waiting,1 writer(s) waiting..
+Reader 5 read 26,  1 reader(s), 2 reader(s) waiting, 1 writer(s) waiting..
+Reader 3 read 26,  2 reader(s), 2 reader(s) waiting, 1 writer(s) waiting..
+Writer 1 wrote 68, 1 reader(s),2 reader(s) waiting,0 writer(s) waiting..
+Reader 4 read 68,  2 reader(s), 1 reader(s) waiting, 0 writer(s) waiting..
+Reader 1 read 68,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Writer 2 wrote 30, 0 reader(s),0 reader(s) waiting,0 writer(s) waiting..
+Reader 3 read 30,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Writer 1 wrote 62, 0 reader(s),0 reader(s) waiting,0 writer(s) waiting..
+Reader 5 read 62,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
+Reader 4 read 62,  1 reader(s), 0 reader(s) waiting, 0 writer(s) waiting..
