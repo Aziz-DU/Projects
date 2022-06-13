@@ -1,0 +1,7 @@
+Credativ: Builds the Debian and Ubuntu packages for apt.postgresql.org and Debian,
+
+contributors team, conference speaker, postgresql-unit author, provides help and support in the IRC channel
+
+Microsoft :Partial aggregation, parallel aggregation, moving aggregates, unique joins, run-time partition pruning, 
+
+partitioning performance improvements and various query planner improvements.

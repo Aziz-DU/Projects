@@ -1,0 +1,9 @@
+1- Food_code was used as a row key, 2 column families for food name and calories.
+
+2- I used two column families,  'Display_Name' and 'Calories'. i used these two because
+they're the most appropriate to query about, what's the food and how many calories 
+it has
+
+create 'foods', 'Display_Name', 'Calories' //
+put 'foods', '13110100', 'Display_Name:Ice cream, regular', 'Calories:267.33000'
+put 'foods', '12350000', 'Display_Name:Sour creem Dip', 'Calories:133.65000'

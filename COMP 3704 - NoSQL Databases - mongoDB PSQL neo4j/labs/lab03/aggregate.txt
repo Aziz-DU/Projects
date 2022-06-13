@@ -1,0 +1,35 @@
+array_agg(expression)
+
+avg(expression)
+
+bit_and(expression)
+
+bit_or(expression)
+
+bool_and(expression)
+
+bool_or(expression)
+
+count(*)
+
+count(expression)
+
+every(expression)	
+
+json_agg(expression)
+
+jsonb_agg(expression)	
+
+json_object_agg(name, value)
+
+jsonb_object_agg(name, value)
+
+max(expression)
+
+min(expression)
+
+string_agg(expression, delimiter)
+
+sum(expression)
+
+xmlagg(expression)

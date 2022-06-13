@@ -1,0 +1,3 @@
+Query fetches data from mongo database with query operations
+Cursor is a pointer that returns all fetched records.
+https://www.softwaretestinghelp.com/mongodb/cursor-in-mongodb/

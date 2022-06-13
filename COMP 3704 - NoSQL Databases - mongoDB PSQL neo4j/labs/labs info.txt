@@ -1,0 +1,4 @@
+queries used here were implemented on a database inside a docker container; only the quieres are included here.
+
+labs were worked on as a group with one other student:
+Serigne Kholle

@@ -1,0 +1,2 @@
+delete 'tablename', 'row', 'data:1'
+deleteall 'tablename', 'row'

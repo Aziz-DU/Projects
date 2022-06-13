@@ -1,0 +1,8 @@
+the different types of Match contraints are :MATCH FULL, MATCH PARTIAL, and MATCH SIMPLE (which is the default). 
+
+MATCH FULL will not allow one column of a multicolumn foreign key to be null unless all foreign key columns are null;
+ if they are all null, the row is not required to have a match in the referenced table. 
+
+MATCH SIMPLE allows any of the foreign key columns to be null; if any of them are null, the row is not required to have a match in the referenced table.
+
+MATCH PARTIAL is not yet implemented. (Of course, NOT NULL constraints can be applied to the referencing column(s) to prevent these cases from arising.)

@@ -1,0 +1,4 @@
+https://www.postgresql.org/docs/11/index.html
+
+command line \? gives you general information abou postgres list of commands
+command line \h give the list of available database commands such as altering creating or dropping.
