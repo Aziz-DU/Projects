@@ -21,11 +21,27 @@
   </ul>
     <li align="center">COMP 3351: Programming Languages - Haskell </li>
   <ul>
-    <li>Dailies 1-9 - Problem Soliving With Haskell</li>
-    <li>Weekly Assignment One: Encoding and Decoding </li>
-    <li>Weekly Assignment Two: Tree Structures </li>
-    <li>Weekly Assignment Three: Patterns in Haskell</li>
-    <li>Weekly Assignment Four: LISP Style Language </li>
+    <li>Dailies 1-9 - Problem Solving With Haskell</li>
+    <li>Weekly Assignment One - Encoding and Decoding </li>
+    <li>Weekly Assignment Two - Tree Structures </li>
+    <li>Weekly Assignment Three - Patterns in Haskell</li>
+    <li>Weekly Assignment Four - LISP Style Language </li>
+  </ul>
+      <li align="center">COMP 3704: NoSQL Databases - mongoDB/PSQL/neo4j </li>
+  <ul>
+    <li>Labs 2-9 - Querying using different databases</li>
+    <li>Project One - PSQL vs  MongoDB</li>
+    <li>Project Two - PSQL vs  Neo4j</li>
+  </ul>
+      <li align="center">COMP 3705: Topics in Computer Science - Python </li>
+  <ul>
+    <li>Labs 3-8 - Problem Solving With Python</li>
+    <li>Assignment 2 - Blackout Game </li>
+    <li>Assignment 3 - Boggle </li>
+    <li>Assignment 4 - Mixed Cypher  </li>
+    <li>Assignment 5 - Advanced Logging Decorator  </li>
+    <li>Assignment 6 - Imgur JSON API  </li>
+    <li>Assignment 7 - Graphical Blackout Game  </li>
   </ul>
   <li>...</li>
 </ul>
