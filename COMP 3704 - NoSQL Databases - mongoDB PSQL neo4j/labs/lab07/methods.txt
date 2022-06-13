@@ -1,0 +1,2 @@
+HEAD  -- The HEAD method is used to get the HTTP header of a GET request without the body of the response.
+COPY  -- A special method that can be used to copy documents and objects.

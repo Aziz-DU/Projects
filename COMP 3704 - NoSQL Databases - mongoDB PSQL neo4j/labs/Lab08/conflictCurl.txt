@@ -1,0 +1,1 @@
+curl -u admin:admin "${COUCH_ROOT_URL}/music/conflict_view/_all_docs?include_docs=true&conflicts=true"

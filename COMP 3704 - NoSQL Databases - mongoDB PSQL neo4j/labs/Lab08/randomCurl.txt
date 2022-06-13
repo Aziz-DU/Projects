@@ -1,0 +1,2 @@
+export RANDOM_VAL=$(ruby -e 'puts rand')
+curl -u admin:admin "${COUCH_ROOT_URL}/music/_design/random/_view/randBand?limit=1&startkey=${RANDOM_VAL}"

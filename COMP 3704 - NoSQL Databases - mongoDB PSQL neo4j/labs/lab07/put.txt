@@ -1,0 +1,4 @@
+curl -u admin:admin -i -XPUT \
+"${COUCH_ROOT_URL}/music/0f8014974ff383d445b9fe7e9200587e" \
+-H "Content-Type: application/json" \-H "If-Match: 1-2fe1dd1911153eb9df8460747dfe75a0" \
+-d '{    "name": "Wings",    "albums": ["Wild Life", "Band on the Run", "London Town"]}'

@@ -1,0 +1,3 @@
+emit also supports integers and arrays if it's passed as a key.
+
+If we pass an array as a key, the array is treated as a key and the function will iterate over every element in it.

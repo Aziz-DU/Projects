@@ -1,0 +1,20 @@
+First: 
+Create: insert movie data into the graph, a block of code containing a single Cypher query statement composed of multiple CREATE clauses. This will create the movie graph.)
+
+Second
+Find: retrieve individual movies and actors, multiple find queries  are issued for finding individual nodes(specific actors or movies)
+
+Third
+Query: discover related actors and directors there were queries to find patterns within the graph forexample movies of a same actor or director
+
+Forth
+Solve the Bacon Path
+the Built-in shortestPath() algorithm
+
+Fifth
+Recommendations of new co-actors and way to introduce them. A basic recommendation approach is to find connections past an immediate neighborhood which are themselves well connected.
+
+
+Sixth
+Clean up,remove the movie data set (nodes and relationships)
+

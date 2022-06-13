@@ -1,0 +1,11 @@
+CREATE (Serigne {name:'Serigne'})
+CREATE (Aziz {name:'Aziz'})
+CREATE (Samba {name:'Samba'})
+CREATE (Pierre {name:'Pierre'})
+
+CREATE (Serigne)-[f:friend]->(Aziz)
+CREATE (Aziz)-[f:friend ]->(Pierre)
+CREATE (Samba)-[f:friend ]->(Serigne)
+CREATE (Pierre)-[f:friend ]->(Serigne)
+CREATE (Aziz)-[f:friend]->(Samba)
+

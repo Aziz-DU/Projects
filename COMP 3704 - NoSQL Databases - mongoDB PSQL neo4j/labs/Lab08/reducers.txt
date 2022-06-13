@@ -1,0 +1,7 @@
+ The Built-in reduce functions are implemented in Erlang and run inside of CouchDB, so they are faster than the JavaScript ones.
+
+_sum : numerically add the emitted values
+
+_count : this function counts the number of values of the given key
+
+_stats : this function find the (sum, count, min, max,sumsqr) of the key values.
