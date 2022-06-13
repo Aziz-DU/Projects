@@ -1,0 +1,43 @@
+Schema
+
+created a csv file called doctors with 100 different doctors
+
+created a csv filled called illnesses with 1000 unique illnesses
+
+created a csv file called treatements with 750 unique treatments
+
+//created a csv file called doc_patients that took randomly 35% of the doctors list and match them as patients
+
+delete 35 patients from the patient csv and replace them with the docpatients list
+
+// no patient is repeated as 35% of the patients are randomly deleted from the patient and updated by the doctors that are patients
+
+
+
+
+LOAD CSV WITH HEADERS FROM "file:///doctors.csv" AS row
+CREATE (:Doctor {doctor_ID: row.doctor_ID, doctor_name: row.doctor_name, doctor_phone_number: row.doctor_phone_number, doctor_city: row.doctor_city});
+
+LOAD CSV WITH HEADERS FROM "file:///illnesses.csv" AS row
+CREATE (:Illness {illness_ID: row.illness_ID, illness_name: row.illness_name});
+
+LOAD CSV WITH HEADERS FROM "file:///treatment.csv" AS row
+CREATE (:Treatment {treatment_ID: row.treatment_ID, treatment_name: row.treatment_name});
+
+LOAD CSV WITH HEADERS FROM "file:///patients.csv" AS row
+CREATE (:Patient {patient_ID: row.patient_ID, patient_Name: row.patient_Name, patient_phone_number: row.patient_phone_number, patient_age: row.patient_age});
+
+LOAD CSV WITH HEADERS FROM "file:///People.csv" AS row
+CREATE (:People {person_ID: row.person_ID, patient_ID: row.patient_ID, doctor_ID: row.doctor_ID, is_doctor: row.is_doctor});
+
+LOAD CSV WITH HEADERS FROM "file:///PatientIllness.csv" AS row
+CREATE (:PatientIllness {patient_ID: row.patient_ID, illness_ID: row.illness_ID});
+
+LOAD CSV WITH HEADERS FROM "file:///PatientTreatment.csv" AS row
+CREATE (:PatientTreatment {patient_ID: row.patient_ID, treatment_ID: row.treatment_ID});
+
+
+
+
+
+

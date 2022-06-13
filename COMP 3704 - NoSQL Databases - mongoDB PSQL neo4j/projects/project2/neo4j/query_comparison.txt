@@ -1,0 +1,40 @@
+Query for Patient's doctors:
+
+to find all doctors for a single patient
+
+MATCH (p:Patients {patient_Name: ""})<-->(other:doctor)
+       RETURN other;
+
+
+to find all doctors for a doctor:
+
+MATCH (p:Patients {doctor_name: "p22"})<-->(other:Doctors)
+              RETURN other;
+
+
+Query for Patient's illnesses:
+
+    - find all illnesses for a single patient
+
+MATCH (p:Patients {doctor_name: "p33"})<-->(other:Illnesses)
+RETURN other;
+
+
+- find all illnesses for a single doctor
+MATCH (p:Patients {doctor_name: "d22"})<-->(other:Illnesses)
+              RETURN other;
+
+
+Query for Patients's treatments:
+
+    - find all treatments for a single patient
+
+MATCH (p:Patients {patient_Name: "p88"})<-->(other:Treatment)
+RETURN other;
+
+
+- find all treatments for a single doctor
+MATCH (p:Patients {doctor_name: "d99"})<-->(other:Treatment)
+              RETURN other;
+
+

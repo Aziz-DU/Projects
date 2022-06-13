@@ -1,0 +1,42 @@
+createdb project1
+psql project1
+							// I used "" because i was working with pgadmin at first and made everything around having ""s
+CREATE TABLE "Inventory"
+(
+    "Ingr_Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "Quantity" integer NOT NULL,
+    CONSTRAINT "Ingr_Name" PRIMARY KEY ("Ingr_Name")
+);
+CREATE TABLE "Users"
+(
+    "Email_Address" text NOT NULL,
+    "First_Name" text NOT NULL,
+    "Last_Name" text NOT NULL,
+    "Phone_Number" text NOT NULL,
+    "Address_Line_1" text NOT NULL,
+    "Address_Line_2" text ,
+    "City" text NOT NULL,
+    "State" text NOT NULL,
+    "Zip" text  NOT NULL,
+	CONSTRAINT "Email_Address" PRIMARY KEY ("Email_Address")
+);
+
+CREATE TABLE "Orders"
+(
+    "User_Email" text REFERENCES "Users" ("Email_Address"),
+    "Time_Stamp" text ,
+    "Recipe_Ingredient" text REFERENCES "Recipes" ("List_of_ingredients"),
+    "Quantity_Ordered" integer
+);
+CREATE TABLE "Recipes"
+(
+    "Rec_Name" text NOT NULL,
+    "Description" text NOT NULL,
+    "List_of_ingredients" text NOT NULL,
+    "Cooking_instructions" text NOT NULL,
+    CONSTRAINT "Recipes_pkey" PRIMARY KEY ("Rec_Name"),
+    CONSTRAINT "Recipes_List_of_ingredients_key" UNIQUE ("List_of_ingredients"),
+    CONSTRAINT "Recipes_List_of_ingredients_fkey" FOREIGN KEY ("List_of_ingredients")
+        REFERENCES "Inventory" ("Ingr_Name")
+);

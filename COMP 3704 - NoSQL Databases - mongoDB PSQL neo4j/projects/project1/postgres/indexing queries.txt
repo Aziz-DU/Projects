@@ -1,0 +1,31 @@
+I applied the queries and indexing to the Users table because it has way more data than all other tables in my database.
+
+project1=# explain analyze SELECT COUNT(*) FROM "Users" WHERE "Email_Address" !~* '^the.*';
+                                                            QUERY PLAN
+----------------------------------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=3046.90..3046.91 rows=1 width=8) (actual time=38.477..38.478 rows=1 loops=1)
+   ->  Bitmap Heap Scan on "Users"  (cost=1370.91..2921.91 rows=49995 width=0) (actual time=2.982..34.345 rows=49848 loops=1)
+         Filter: ("Email_Address" !~* '^the.*'::text)
+         Rows Removed by Filter: 152
+         Heap Blocks: exact=926
+         ->  Bitmap Index Scan on user_ems  (cost=0.00..1358.41 rows=50000 width=0) (actual time=2.864..2.864 rows=50000 loops=1)
+ Planning Time: 0.102 ms
+ Execution Time: 38.501 ms
+(8 rows)
+
+project1=# set enable_seqscan=true
+;
+SET
+project1=# explain analyze SELECT COUNT(*) FROM "Users" WHERE "Email_Address" !~* '^the.*';
+                                                    QUERY PLAN
+-------------------------------------------------------------------------------------------------------------------
+ Aggregate  (cost=1675.99..1676.00 rows=1 width=8) (actual time=30.906..30.907 rows=1 loops=1)
+   ->  Seq Scan on "Users"  (cost=0.00..1551.00 rows=49995 width=0) (actual time=0.012..26.722 rows=49848 loops=1)
+         Filter: ("Email_Address" !~* '^the.*'::text)
+         Rows Removed by Filter: 152
+ Planning Time: 0.103 ms
+ Execution Time: 30.927 ms
+(6 rows)
+
+I had to turn off the sequence scan to force psql to use the index scan instead. The difference is very minimal but i suppose
+my table doesn't have enough data to show the efficiency difference
