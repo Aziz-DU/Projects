@@ -9,6 +9,7 @@
     <li>max subarray sum - multi algo </li>
     <li>Modified Dijkstra’s Algorithm </li>
   </ul>
+  <br>
     <li align="center">COMP 3361: Operating systems - C++ </li>
   <ul>
     <li>Project 1 - Reverse Lines</li>
@@ -19,6 +20,7 @@
     <li>Project 6 - Deadlock Detection </li>
     <li>Project 7 - Memory Management with Lists </li>
   </ul>
+  <br>
     <li align="center">COMP 3351: Programming Languages - Haskell </li>
   <ul>
     <li>Dailies 1-9 - Problem Solving With Haskell</li>
@@ -27,12 +29,14 @@
     <li>Weekly Assignment Three - Patterns in Haskell</li>
     <li>Weekly Assignment Four - LISP Style Language </li>
   </ul>
+  <br>
       <li align="center">COMP 3704: NoSQL Databases - mongoDB/PSQL/neo4j </li>
   <ul>
     <li>Labs 2-9 - Querying using different databases</li>
     <li>Project One - PSQL vs  MongoDB</li>
     <li>Project Two - PSQL vs  Neo4j</li>
   </ul>
+  <br>
       <li align="center">COMP 3705: Topics in Computer Science - Python </li>
   <ul>
     <li>Labs 3-8 - Problem Solving With Python</li>
