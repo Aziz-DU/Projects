@@ -47,6 +47,7 @@
     <li>Assignment 6 - Imgur JSON API  </li>
     <li>Assignment 7 - Graphical Blackout Game  </li>
   </ul>
+  <br>
         <li align="center">COMP 2355: Intro to Systems Programming - C </li>
   <ul>
     <li>Labs 1-7 - Using C/C++/Java</li>
