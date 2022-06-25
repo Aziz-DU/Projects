@@ -1,0 +1,4 @@
+This round, you collected 3 squares.
+You got hit 3 times.
+You played in HARD mode.
+This is your 2nd attempt.
