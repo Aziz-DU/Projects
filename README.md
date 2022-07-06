@@ -53,6 +53,17 @@
     <li>Labs 1-7 - Using C/C++/Java</li>
     <li>Huffman Tree </li>
   </ul>
+    <br>
+        <li align="center">Projects From Various Classes - Java </li>
+  <ul>
+    <li>21 different projects using java</li>
+  </ul>
+    <br>
+        <li align="center">Tidy Trainers - VR cleaning simulator - CSharp- Using VRTK in Unity </li>
+  <ul>
+    <li>Scripts, particle effects and some documentations .. </li>
+  </ul>
+  
   <li>...</li>
 </ul>
 
